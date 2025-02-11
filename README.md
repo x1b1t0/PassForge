@@ -18,15 +18,6 @@ Technologies Used
 Frontend: React
 Backend: Node.js / Express
 Database: MongoDB
-How to Run Locally
-Clone the repository:
-git clone  https://github.com/x1b1t0/Wellness-Monitor
-
-Install dependencies:
-npm install
-
-Start the app:
-npm start
 
 # Versión en Español
 
@@ -46,14 +37,4 @@ Tecnologías Utilizadas
 Frontend: React
 Backend: Node.js / Express
 Base de Datos: MongoDB
-Cómo Ejecutar Localmente
-
-Clona el repositorio:
-git clone https://github.com/x1b1t0/Wellness-Monitor
-
-Instala las dependencias:
-npm install
-
-Inicia la aplicación:
-npm start
 
