@@ -20,7 +20,7 @@ Backend: Node.js / Express
 Database: MongoDB
 How to Run Locally
 Clone the repository:
-git clone https://github.com/yourusername/Wellness-Monitor.git
+git clone https://github.com/x1b1t0/Wellness-Monitor.git
 
 Install dependencies:
 npm install
@@ -48,7 +48,7 @@ Backend: Node.js / Express
 Base de Datos: MongoDB
 Cómo Ejecutar Localmente
 Clona el repositorio:
-git clone https://github.com/yourusername/Wellness-Monitor.git
+git clone https://github.com/x1b1t0/Wellness-Monitor.git
 
 Instala las dependencias:
 npm install
