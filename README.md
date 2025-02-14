@@ -57,9 +57,7 @@ Track progress and discuss using comments.
 
 Receive notifications for updates.
 
-👥 Contributors
-
-Your Name x1b1t0, 
+👥 Contributors x1b1t0, arrroyoo
 
 📡 License
 
@@ -124,9 +122,7 @@ Haz seguimiento y comenta sobre el progreso.
 
 Recibe notificaciones de actualizaciones.
 
-👥 Contribuidores x1b1t0, 
-
-Tu Nombre (Perfil de GitHub)
+👥 Contribuidores x1b1t0, arrroyoo
 
 📡 Licencia
 
