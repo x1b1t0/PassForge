@@ -1,12 +1,16 @@
 from flask import Flask
-from app.routes import task_routes, user_routes
+from flask_sqlalchemy import SQLAlchemy
+from userModel import db, User
 
 app = Flask(__name__)
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///users.db'  # o la URI de tu base de datos
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
-# Configura las rutas del proyecto
-app.register_blueprint(task_routes)
-app.register_blueprint(user_routes)
+db.init_app(app)
 
-if __name__ == "__main__":
+@app.before_first_request
+def create_tables():
+    db.create_all()
+
+if __name__ == '__main__':
     app.run(debug=True)
-
