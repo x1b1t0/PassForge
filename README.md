@@ -32,7 +32,7 @@ Authentication: JWT or session-based authentication
 
 1. Clone the repository:
 
-git clone https://github.com/x1b1t0/TaskManager.git
+git clone [https://github.com/x1b1t0/TaskManager.git](https://github.com/x1b1t0/Fragmenttask)
 cd TaskManager
 
 2. Backend Setup (Flask Example)
@@ -97,7 +97,7 @@ Autenticación: JWT o autenticación basada en sesiones
 
 1. Clonar el repositorio:
 
-git clone https://github.com/x1b1t0/TaskManager.git
+git clone [https://github.com/x1b1t0/TaskManager.git](https://github.com/x1b1t0/Fragmenttask)
 cd TaskManager
 
 2. Configurar el Backend (Ejemplo Flask)
