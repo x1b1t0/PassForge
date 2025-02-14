@@ -1,128 +1,102 @@
-Task Manager - Collaborative Task Management
-
+PassForge - Secure Password Generator
 📊 Description
 
-Task Manager is a web application designed for efficient task management within teams. It allows users to create, assign, and track tasks collaboratively. Key features include task notifications, change history, and task-specific comments, improving productivity and communication.
+PassForge is a password generator web application designed to help users create secure passwords with configurable settings like length, uppercase, lowercase, numbers, and special characters. The project includes a web interface where users can easily generate strong passwords to enhance their online security.
 
 🔧 Technologies Used
 
-Backend: Python (Flask or Django)
-
+Backend: Python (Flask)
 Frontend: HTML, CSS, JavaScript
-
-Database: SQLite (for development) or PostgreSQL (for production)
-
-Authentication: JWT or session-based authentication
-
+Authentication: No authentication required
+Security: Password generation logic ensures randomness and strength.
 ⚡ Features
 
-✅ User Authentication: Register and log in securely.
-
-✅ Task Management: Create, edit, assign, and delete tasks.
-
-✅ Notifications: Alerts for pending tasks and changes.
-
-✅ Change History: Track modifications to tasks.
-
-✅ Task Comments: Discuss and track progress.
-
-✅ Responsive Interface: Works on desktop and mobile devices.
-
+✅ Password Generation: Create random and secure passwords.
+✅ Customizable Options: Set the desired length, complexity, and character types.
+✅ Web Interface: Simple and user-friendly web page for generating passwords.
+✅ Cross-platform: Accessible from both desktop and mobile devices.
 ✅ Installation
 
-1. Clone the repository:
+Clone the repository:
 
-git clone [https://github.com/x1b1t0/TaskManager.git](https://github.com/x1b1t0/Fragmenttask)
-cd TaskManager
+bash
+Copiar
+git clone https://github.com/x1b1t0/PassForge.git
+cd PassForge
+Backend Setup (Python Flask):
 
-2. Backend Setup (Flask Example)
-
-cd backend
+bash
+Copiar
+cd python-backend
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 python app.py
-
-3. Frontend Setup
-
-Just open frontend/index.html in a browser or use a local server.
+Frontend Setup: Simply open web-interface/index.html in a browser or use a local server.
 
 🚀 Usage
 
-Register or log in.
+Open the web interface in your browser.
+Select password settings (length, characters).
+Generate a password by clicking the "Generate" button.
+Copy the generated password for use.
+👥 Contributors
 
-Create and assign tasks.
-
-Track progress and discuss using comments.
-
-Receive notifications for updates.
-
-👥 Contributors x1b1t0, arrroyoo
-
+x1b1t0
+arrroyoo
 📡 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Task Manager - Gestor de Tareas Colaborativo
-
+PassForge - Generador de Contraseñas Seguras
 📊 Descripción
 
-Task Manager es una aplicación web diseñada para la gestión eficiente de tareas en equipos. Permite a los usuarios crear, asignar y hacer seguimiento de tareas de manera colaborativa. Ofrece notificaciones, historial de cambios y comentarios en tareas para mejorar la productividad y la comunicación.
+PassForge es una aplicación web que permite generar contraseñas seguras con opciones configurables como longitud, mayúsculas, minúsculas, números y caracteres especiales. El proyecto incluye una interfaz web donde los usuarios pueden generar fácilmente contraseñas fuertes para mejorar su seguridad en línea.
 
 🔧 Tecnologías Utilizadas
 
-Backend: Python (Flask o Django)
-
+Backend: Python (Flask)
 Frontend: HTML, CSS, JavaScript
-
-Base de Datos: SQLite (para desarrollo) o PostgreSQL (para producción)
-
-Autenticación: JWT o autenticación basada en sesiones
-
+Autenticación: No se requiere autenticación
+Seguridad: La lógica de generación de contraseñas asegura aleatoriedad y fortaleza.
 ⚡ Características
 
-✅ Autenticación de Usuarios: Registro e inicio de sesión seguro.
-
-✅ Gestión de Tareas: Crear, editar, asignar y eliminar tareas.
-
-✅ Notificaciones: Alertas sobre tareas pendientes y cambios.
-
-✅ Historial de Cambios: Registro de modificaciones en tareas.
-
-✅ Comentarios en Tareas: Discusión y seguimiento de progreso.
-
-✅ Interfaz Responsiva: Compatible con escritorio y dispositivos móviles.
-
+✅ Generación de Contraseñas: Crea contraseñas aleatorias y seguras.
+✅ Opciones Personalizables: Establece la longitud deseada y la complejidad de caracteres.
+✅ Interfaz Web: Página web simple y fácil de usar para generar contraseñas.
+✅ Multiplataforma: Accesible desde dispositivos de escritorio y móviles.
 ✅ Instalación
 
-1. Clonar el repositorio:
+Clonar el repositorio:
 
-git clone [https://github.com/x1b1t0/TaskManager.git](https://github.com/x1b1t0/Fragmenttask)
-cd TaskManager
+bash
+Copiar
+git clone https://github.com/x1b1t0/PassForge.git
+cd PassForge
+Configuración del Backend (Python Flask):
 
-2. Configurar el Backend (Ejemplo Flask)
-
-cd backend
+bash
+Copiar
+cd python-backend
 python -m venv venv
 source venv/bin/activate  # En Windows: venv\Scripts\activate
 pip install -r requirements.txt
 python app.py
-
-3. Configurar el Frontend
-
-Abre frontend/index.html en un navegador o usa un servidor local.
+Configuración del Frontend: Simplemente abre web-interface/index.html en un navegador o usa un servidor local.
 
 🚀 Uso
 
-Regístrate o inicia sesión.
+Abre la interfaz web en tu navegador.
+Selecciona los ajustes de la contraseña (longitud, caracteres).
+Genera una contraseña haciendo clic en el botón "Generar".
+Copia la contraseña generada para su uso.
+👥 Contribuidores
 
-Crea y asigna tareas.
+x1b1t0
+arrroyoo
+📡 Licencia
 
-Haz seguimiento y comenta sobre el progreso.
-
-Recibe notificaciones de actualizaciones.
-
-👥 Contribuidores x1b1t0, arrroyoo
+Este proyecto está bajo la licencia MIT - consulta el archivo LICENSE para más detalles.
 
 📡 Licencia
 
